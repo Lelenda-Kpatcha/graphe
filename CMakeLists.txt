@@ -8,7 +8,7 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c99 -Wall ")
 ### library tsp
 add_library(graph graph.c)
 
-### solver
+### main
 add_executable(main main.c)
 target_link_libraries(main graph)
 
