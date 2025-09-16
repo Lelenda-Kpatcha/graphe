@@ -32,4 +32,9 @@ typedef struct graph_t {
 } graph ;
 
 
+void graph_new (bool oriented , bool weighted , int nb_vertex , vertex * vectrices) ;
+
+void graph_new_file (FILE file) ;
+
+void graph_nb_vertex (graph* g) ;
 #endif
